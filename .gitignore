@@ -1,0 +1,16 @@
+# Dataset — too large for GitHub
+data/
+
+# Model weights
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.egg-info/
+
+# Environment
+.env
+
+# YOLO output
+runs/
