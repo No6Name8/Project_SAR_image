@@ -1,0 +1,23 @@
+# SARDet-100K dataset config for YOLOv12
+# Paths use forward slashes — Python/YOLOv12 accept these on Windows.
+
+path: C:/Users/h/Documents/SARDet_100K
+
+train: JPEGImages/train
+val:   JPEGImages/val
+
+# Annotation files (COCO format, pre-conversion)
+train_ann: Annotations/train.json
+val_ann:   Annotations/val.json
+
+# Number of classes
+nc: 6
+
+# Class names (SARDet-100K)
+names:
+  0: ship
+  1: aircraft
+  2: car
+  3: tank
+  4: bridge
+  5: harbor

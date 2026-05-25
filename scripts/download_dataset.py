@@ -14,8 +14,8 @@ import sys
 import zipfile
 from pathlib import Path
 
-DATASET_ROOT = Path("/home/user/sar/datasets/SARDet_100K")
-DOWNLOAD_DIR = Path("/home/user/sar/datasets")
+DATASET_ROOT = Path("C:/Users/h/Documents/SARDet_100K")
+DOWNLOAD_DIR = Path("C:/Users/h/Documents")
 KAGGLE_DATASET = "greatbird/sardet-100k"
 
 REQUIRED_PATHS = [
