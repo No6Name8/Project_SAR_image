@@ -31,7 +31,7 @@ def download():
     DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
     result = subprocess.run(
-        [sys.executable, "-m", "kaggle", "datasets", "download", "-d", KAGGLE_DATASET, "-p", str(DOWNLOAD_DIR)],
+        ["kaggle", "datasets", "download", "-d", KAGGLE_DATASET, "-p", str(DOWNLOAD_DIR)],
         check=False,
     )
     if result.returncode != 0:
