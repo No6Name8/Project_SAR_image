@@ -1,5 +1,7 @@
 # Environment Setup
 
+> **Where training runs:** All model training is executed on Kaggle notebooks (free T4 GPU, 16 GB VRAM). Local machines are only used for repo management, editing configs, and reviewing committed results. You do not need a GPU locally.
+
 ## Prerequisites
 
 ### 1. Kaggle API key
